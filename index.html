@@ -15,27 +15,27 @@
                 <div  class="topText"><h2>Register Form</h2></div>
                 <div class="bluredForm">
                     <div class="whiteForm">
-                        <div class="ramka ramka_user">
-                                <input class="formName" placeholder="Username">
-                        </div>
-                        <div class="ramka ramka_pass">
-                                <input class="formName" placeholder="Password">
-                        </div>
-                        <div class="ramka ramka_pass">
-                                <input class="formName" placeholder="Confirm Password">
-                        </div>
-                        <div class="ramka ramka_mail">
-                                <input class="formName" placeholder="Email">
-                        </div>
-                        <div class="ramka ramka_location">
-                                <select class="formName">
+                        <label for="REGID"><div class="ramka ramka_user">
+                                <input id="REGID" class="formName" placeholder="Username">
+                        </div></label>
+                        <label for="REGPW"><div class="ramka ramka_pass">
+                                <input id="REGPW" class="formName" placeholder="Password">
+                        </div></label>
+                        <label for="REGCPW"><div class="ramka ramka_pass">
+                                <input id="REGCPW" class="formName" placeholder="Confirm Password">
+                        </div></label>
+                        <label for="REGMAIL"><div class="ramka ramka_mail">
+                                <input id="REGMAIL" class="formName" placeholder="Email">
+                        </div></label>
+                        <label for="REGLOC"><div class="ramka ramka_location">
+                                <select id="REGLOC" class="formName">
                                     <option value="" disabled selected>Your Location</option>
                                     <option value="pl">Poland</option>
                                     <option value="ger">Germany</option>
                                     <option value="ur">Ukraine</option>
                                     <option value="ru">Russia</option>
                                 </select>
-                        </div>
+                        </div></label>
                         <div class="ramka check"><label>
                             <div class="checkJeden">
                                 <input type="checkbox">
@@ -43,7 +43,7 @@
                             </div></label>
                             <div class="checkDwa">I have read and accept the terms of use</div>
                         </div>
-                        <div style="width: 90%; margin: auto;">
+                        <div class="ramka check">
                             <button>Sign up</button>
                         </div>
                     </div>
@@ -60,14 +60,14 @@
                                 <input class="formName" placeholder="Password">
                         </div>
                         <div class="ramka check">
-                            <div style="width:60%; float: left"><label>
+                            <div class="buttonShortLeft"><label>
                                 <div class="checkJeden">
                                     <input type="checkbox">
                                     <div class="checkmark"></div>
                                 </div></label>
                                 <div class="checkDwa">Remember me</div>
                             </div>
-                            <div style="width: 40%; float: left">
+                            <div class="buttonShortRight">
                                 <button>Sign in</button>
                             </div>
                         </div>
@@ -84,14 +84,62 @@
                         <div class="ramka ramka_phone">
                             <input class="formName" placeholder="Enter your Phone number">
                         </div>
+                        <div class="ramka check">
+                            <div class="buttonShortLeft">
+                                <button>Send</button>
+                            </div>
+                            <div class="buttonShortRight">
+                                <button>Done</button>
+                            </div>
+                        </div>
                     </div>
                  </div>
             </div>
             <div id="sendEmail" class="form">
-                <div  class="topText"><h2>Send Email</h2></div>
+                <div  class="topText"><h2>Send Email</h2>
+                    <div class="bluredForm">
+                        <div class="whiteForm">
+                            <div class="ramka ramka_user">
+                                    <input class="formName" placeholder="Your Name">
+                            </div>
+                            <div class="ramka ramka_mail">
+                                <input class="formName" placeholder="Your Email">
+                            </div>
+                            <div id="ramkaTxt" class="ramka">
+                                <input class="formMessage" placeholder="Type your message...">
+                            </div>
+                            <div class="ramka check"><label>
+                                <div class="checkJeden">
+                                    <input type="checkbox">
+                                    <div class="checkmark"></div>
+                                </div></label>
+                                <div class="checkDwa">Send a copy to my Email</div>
+                            </div>
+                            <div class="ramka check">
+                                <button>Send Email</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="subscribeForm" class="form">
-                <div  class="topText"><h2>Subscribe Form</h2></div>
+                <div  class="topText"><h2>Subscribe Form</h2>
+                    <div class="bluredForm">
+                        <div class="whiteForm">
+                            <div class="ramka ramka_mail">
+                                <input class="formName" placeholder="Enter your Email">
+                            </div>
+                            <div class="ramka check">
+                                <div class="buttonShortLeft">
+                                    <button>Subscribe</button>
+                                </div>
+                                <div class="buttonShortRight">
+                                    <button id="buttonred">No, Thanks</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="outro" class="form">
                 <img src="img/logo1.png">
