@@ -126,6 +126,7 @@ button:focus {
 
 .ramka_location option {
     color: grey;
+    position: relative;
 }
 
 #ramkaTxt {
@@ -275,10 +276,6 @@ button:active {
 
 #outro img {
     padding: 20px 0px;
-}
-
-.labelC {
-    width: 100%;
 }
 
 @media only screen and (max-width: 1075px) {
