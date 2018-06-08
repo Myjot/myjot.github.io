@@ -122,6 +122,24 @@ button:focus {
     background-position-x: 13px;
     color: grey;
     cursor: pointer;
+    position: relative;
+}
+
+#REGLOC {
+    position: absolute;
+    background-color: transparent;
+    left: 0;
+    padding-left: 58px;
+    border: 0px;
+}
+
+#line {
+    position: absolute;
+    margin-left: 43px;
+    height: 30px;
+    border-left: 1px solid rgb(224, 212, 212);
+    top: 3;
+    left: 0;
 }
 
 .ramka_location option {
