@@ -191,8 +191,9 @@ select {
     width: 90%;
     float: left;
     padding: 0.4em;
-    padding-left: 28px;
+    padding-left: 40px;
     color: grey;
+    text-align: left;
 }
 
 
@@ -208,7 +209,6 @@ select {
 .formMessage {
     width: 100%;
     border: none;
-    height: 30px;
     margin: 3px 0px;
 }
 
@@ -277,13 +277,22 @@ button:active {
     padding: 20px 0px;
 }
 
+.labelC {
+    width: 100%;
+}
+
 @media only screen and (max-width: 1075px) {
-    #logo :first-child {
+    #logo :first-child, #outro :first-child {
         max-width: 60px;
     }
-    #logo img {
+    #logo img, #outro img{
         max-width: 160px;
     }
+
+    #outro {
+        width: 55%;
+    }
+
     .form {
         width: 65%;
         margin-left: 17.5%;
