@@ -229,6 +229,7 @@ select {
 .formMessage {
     width: 100%;
     border: none;
+    max-height: 200px;
     margin: 3px 0px;
 }
 
