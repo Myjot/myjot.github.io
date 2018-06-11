@@ -29,7 +29,6 @@ button:focus {
 #content {
     display: block;
     width: 1050px;
-    height: 100%;
     margin: auto;
 }
 
@@ -229,7 +228,10 @@ select {
 .formMessage {
     width: 100%;
     border: none;
+    min-height: 200px;
+    min-width: 250px;
     max-height: 200px;
+    max-width: 330px;
     margin: 3px 0px;
 }
 
@@ -298,6 +300,10 @@ button:active {
     padding: 20px 0px;
 }
 
+#sendEmail {
+    margin-top: -5%;
+}
+
 @media only screen and (max-width: 1075px) {
     #logo :first-child, #outro :first-child {
         max-width: 60px;
@@ -317,5 +323,8 @@ button:active {
     }
     #content {
         width: 100%;
+    }
+    #sendEmail {
+    margin-top: 0%;
     }
 }
