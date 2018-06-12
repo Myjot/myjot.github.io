@@ -57,7 +57,7 @@ button:focus {
 .form {
     width: 50%;
     text-align: center;
-    margin: auto;
+    margin-bottom: 2%;
     float: left;
 }
 
@@ -130,6 +130,9 @@ button:focus {
     left: 0;
     padding-left: 58px;
     border: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 #line {
@@ -141,6 +144,14 @@ button:focus {
     left: 0;
 }
 
+#arrow {
+    color: lightgray;
+    position: absolute;
+    height: 30px;
+    top: 9;
+    right: 10;
+}
+
 .ramka_location option {
     color: grey;
     position: relative;
@@ -150,7 +161,7 @@ button:focus {
     padding-left: 5px;
     width: 90%;
     min-height: 210px;
-    max-height: 220px;
+    height: auto;
     cursor: text;
 }
 
@@ -301,7 +312,7 @@ button:active {
 }
 
 #sendEmail {
-    margin-top: -5%;
+    margin-top: -7%;
 }
 
 @media only screen and (max-width: 1075px) {
